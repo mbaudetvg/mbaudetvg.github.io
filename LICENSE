@@ -1,20 +1,38 @@
-This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+This project includes different licensing scopes:
+
+---
+
+1. Code & Theme
+
+The website is based on the [minimal theme](https://github.com/orderedlist/minimal) by [@orderedlist](https://github.com/orderedlist) and is licensed under the:
+
+Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)  
+https://creativecommons.org/licenses/by-sa/3.0/
 
 You are free to:
 
 - Share — copy and redistribute the material in any medium or format
 - Adapt — remix, transform, and build upon the material
-  - for any purpose, even commercially.
+  - for any purpose, even commercially
 
 Under the following terms:
 
 - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-More information: https://creativecommons.org/licenses/by-sa/3.0/
+- ShareAlike — If you remix or build upon the material, you must license your contributions under the same license.
 
 ---
 
-### Attribution
+2. Original Written Content
 
-This site is based on the [minimal theme](https://github.com/orderedlist/minimal) by [@orderedlist](https://github.com/orderedlist).
+All original written content (e.g., blog posts, texts) created by the repository owner is licensed under:
+
+Creative Commons Attribution 4.0 International License (CC BY 4.0)  
+https://creativecommons.org/licenses/by/4.0/
+
+This means you are free to share and adapt the material for any purpose, even commercially, as long as appropriate credit is given.
+
+---
+
+3. Media
+
+The personal photograph on the site is **not** licensed under any Creative Commons license. All rights to the image are reserved by the author and may not be reused or redistributed without explicit permission.
