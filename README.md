@@ -10,4 +10,4 @@ Original written content is licensed under the Creative Commons Attribution 4.0 
 The photograph on the homepage is **not** released under a Creative Commons license. All rights reserved.
 
 ### Personal Information Notice
-This site includes personal information such as name, occupation, and a photo. These details are shared for informational purposes only and must not be reused or processed without explicit permission.
+This site includes personal information such as name, occupation and a photo. These details are shared for informational purposes only and must not be reused or processed without explicit permission.
