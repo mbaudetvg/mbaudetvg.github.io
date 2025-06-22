@@ -9,3 +9,4 @@
 
 # Quarto Ignores
 slides/**/root.qmd
+slides/**/bibliography.bib
