@@ -11,14 +11,9 @@ format:
 bibliography: bibliography.bib
 csl: ../_hu-isw.csl
 link-citations: true
+execute:
+  echo: true
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  echo = TRUE,
-  cache = TRUE
-)
-```
 
 ## Introduction
 
@@ -44,16 +39,6 @@ Women tend to prioritize the well-being of future generations more than men do d
 1. An increase in the share of women in city and district councils leads to an increase in the budget size for long-term investments.
 
 2. A decrease in the share of women in city and district councils leads to a decrease in the budget size for long-term investments.
-
----
-
-## Conceptual Scheme
-
-<!--
-![](conceptual_scheme.png){width=80%}
-
-*Conceptual scheme of Hypotheses 1 and 2.*
--->
 
 ---
 

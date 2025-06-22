@@ -176,14 +176,6 @@ Maurice Baudet von Gersdorff
 <li><p>A decrease in the share of women in city and district councils leads to a decrease in the budget size for long-term investments.</p></li>
 </ol>
 </section>
-<section id="conceptual-scheme" class="slide level2">
-<h2>Conceptual Scheme</h2>
-<!--
-![](conceptual_scheme.png){width=80%}
-
-*Conceptual scheme of Hypotheses 1 and 2.*
--->
-</section>
 <section id="research-design" class="slide level2">
 <h2>Research Design</h2>
 <p><strong>Regression Discontinuity Design (RDD)</strong></p>
@@ -454,44 +446,6 @@ Wegweiser Kommune (2025): Kommunale <span>Daten</span> <span>Für</span> <span>E
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
