@@ -2,10 +2,14 @@
 title: "Presentation"
 author: "Maurice Baudet von Gersdorff"
 date: "`r Sys.Date()`"
-output:	ioslides_presentation
-bibliography: test-slides.bib
-csl: _hu-isw.csl
-editor_options: 
+output:
+  ioslides_presentation:
+    fig_caption: true
+    incremental: false
+    self_contained: true
+bibliography: "test-slides.bib"
+csl: "_hu-isw.csl"
+editor_options:
   chunk_output_type: console
 ---
 
