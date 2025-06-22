@@ -9,7 +9,7 @@ format:
     self-contained: false
     slide-number: true
 bibliography: bibliography.bib
-csl: ../_hu-isw.csl
+csl: ../hu-isw.csl
 link-citations: true
 execute:
   echo: true
