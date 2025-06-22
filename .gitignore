@@ -9,5 +9,5 @@
 
 # Quarto Ignores
 slides/hu-isw.csl
-slides/**/root.qmd
+slides/**/index.qmd
 slides/**/bibliography.bib
