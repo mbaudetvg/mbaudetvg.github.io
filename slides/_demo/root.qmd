@@ -5,7 +5,7 @@ format:
   revealjs:
     self-contained: false
     slide-number: true
-bibliography: test-slides.bib
+bibliography: bibliography.bib
 csl: ../_hu-isw.csl
 link-citations: true
 ---
