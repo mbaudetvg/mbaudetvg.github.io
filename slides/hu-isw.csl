@@ -165,7 +165,7 @@
           <text macro="legal_case" />
           <group prefix=" " delimiter=" ">
             <text macro="title" suffix="." />
-            <text macro="edition" />
+            <!-- <text macro="edition" /> -->
             <text macro="editor" suffix="." />
           </group>
           <text prefix=" " suffix="." macro="publisher" />
