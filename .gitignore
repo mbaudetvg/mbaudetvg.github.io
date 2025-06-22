@@ -8,5 +8,6 @@
 .RData
 
 # Quarto Ignores
+slides/hu-isw.csl
 slides/**/root.qmd
 slides/**/bibliography.bib
