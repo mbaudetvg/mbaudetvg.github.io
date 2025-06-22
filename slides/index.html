@@ -24,7 +24,7 @@
         items.filter(item => item.type === 'dir')
              .forEach(dir => {
                const li = document.createElement('li');
-               li.innerHTML = `<a href="./${dir.name}/">${dir.name}/</a>`;
+               li.innerHTML = `<a href="./${dir.name}/root.html">${dir.name}/root.html</a>`;
                ul.appendChild(li);
              });
       })
