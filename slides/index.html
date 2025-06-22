@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Slides Directory Listing</title>
+  <style>
+    body { font-family: sans-serif; padding: 1em; }
+    ul { list-style: none; padding-left: 0; }
+    li + li { margin-top: 0.5em; }
+  </style>
+</head>
+<body>
+  <h1>Slides Folders</h1>
+  <ul id="dir-list">Loading…</ul>
+  <script>
+    const owner = 'YOUR-USERNAME';
+    const repo  = 'YOUR-REPO';
+    const path  = 'slides';
+    fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`)
+      .then(response => response.json())
+      .then(items => {
+        const ul = document.getElementById('dir-list');
+        ul.textContent = '';
+        items.filter(item => item.type === 'dir')
+             .forEach(dir => {
+               const li = document.createElement('li');
+               li.innerHTML = `<a href="./${dir.name}/">${dir.name}/</a>`;
+               ul.appendChild(li);
+             });
+      })
+      .catch(() => {
+        document.getElementById('dir-list').textContent = 'Could not load directory listing.';
+      });
+  </script>
+</body>
+</html>
