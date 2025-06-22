@@ -46,7 +46,7 @@ Women tend to prioritize the well-being of future generations more than men do d
 
 **Regression Discontinuity Design (RDD)**
 
-- »Research design for estimating a causal effect that estimates the discontinuous jump in an outcome on either side of a threshold that determines treatment assignment« [@bueno_de_mesquita_thinking_2021, 262]
+- “Research design for estimating a causal effect that estimates the discontinuous jump in an outcome on either side of a threshold that determines treatment assignment” [@bueno_de_mesquita_thinking_2021, 262]
 
 - In this case: Estimating the causal effect of each additional woman on the council.
 
