@@ -72,7 +72,7 @@ Women tend to prioritize the well-being of future generations more than men do d
 
 - RDD requirements. → Refer to [@bueno_de_mesquita_thinking_2021, 243-265] for full discussion.
 
-- Higher share of women probably correlates with the council's party composition. → GERDA dataset to control for confounders [@heddesheimer_german_2024].
+- Higher share of women probably correlates with the council's party composition. → GERDA dataset [@heddesheimer_german_2024] to control for confounders.
 
 ---
 
