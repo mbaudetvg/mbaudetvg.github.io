@@ -1,5 +1,7 @@
 ---
 title: "The Future is Female"
+subtitle: "How German Female Local Politicians Prioritize the Future
+More Compared to Their Male Counterparts"
 author: "Maurice Baudet von Gersdorff"
 date: "2025-02-12"
 date-format: long
