@@ -1,6 +1,6 @@
 ---
 title: ""
-subtitle: "Regarding the Soccer Project"
+subtitle: ""
 format:
   gfm:
     self-contained: true
