@@ -11,7 +11,7 @@ format:
     slide-number: true
     theme: default
 bibliography: bibliography.bib
-csl: ../hu-isw.csl
+csl: hu-isw.csl
 link-citations: true
 execute:
   echo: true
